@@ -1,15 +1,35 @@
 # テンプレートの使い方
 
+## リポジトリのclone
+
+```bash
+git clone git@github.com:tatsuyayamakawa/template-html.git
+```
+
+## リポジトリの作成
+
+1. Github上でリポジトリを作成。
+1. ターミナルで下記コマンドを実行。
+
+```bash
+git remote add origin <GitHubで作成したリポジトリのURL>
+```
+
 ## Gulpの環境構築
 
-```$ npm install```
+gulpfile.jsとpackage.jsonがある状態で下記コマンドを実行。
 
-gulpfile.jsとpackage.jsonがある状態で上記コマンドを実行すると、
-プラグインがインストールされ、以下コマンドが使えるようになる。
+```bash
+npm install
+```
+
+プラグインがインストールされ、下記コマンドが使えるようになる。
 
 ### 利用可能なGulpコマンド
 
-```$ gulp```
+```bash
+gulp
+```
 
 gulpが起動。
 ファイル保存で以下のタスクが自動で走るようになる。
@@ -19,12 +39,16 @@ gulpが起動。
 - css、jsのコード検証＆整形
 - ejsのhtml化
 
-```$ gulp imagemin```
+```bash
+gulp imagemin
+```
 
 ./images/src/フォルダ内の画像を圧縮し./images/フォルダに吐き出す。
 jpg、pngはWebP画像に変換される（jpg、pngより圧倒的に軽い）。
 
 ## CSSファイル構成
+
+SassはBEM記法を採用しています。
 
 ### baseディレクトリ
 

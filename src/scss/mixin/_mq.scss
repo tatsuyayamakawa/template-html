@@ -1,0 +1,26 @@
+// mq
+
+// Responsive Grid Media Queries - 1280, 1024, 768, 480
+//
+// xl 1280 - 1024   - desktop (default grid)
+// lg 1024 - 768    - tablet landscape
+// md 768  - 480    - tablet 
+// sm 480  - less   - phone landscape & smaller
+//
+// cf.https://gist.github.com/bartholomej/8415655
+
+$breakpointList : 1280px, 1024px, 768px, 480px;
+
+$breakpoints: (
+	'xl': 'all and (min-width: #{nth($breakPointList, 2)}) and (max-width: #{nth($breakPointList, 1)})',
+	'lg': 'all and (min-width: #{nth($breakPointList, 3)}) and (max-width: #{nth($breakPointList, 2)})',
+	'md': 'all and (min-width: #{nth($breakPointList, 4)}) and (max-width: #{nth($breakPointList, 3)})',
+	'sm': 'all and (max-width: #{nth($breakPointList, 4)})',
+) !default;
+
+// Media Queries
+@mixin mq($breakpoint) {
+	@media #{map-get($breakpoints, $breakpoint)} {
+		@content;
+	}
+}

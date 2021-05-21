@@ -1,0 +1,35 @@
+{
+	"[html]": {
+		"editor.formatOnSave": true,
+	},
+	"[css]": {
+		"editor.formatOnSave": true,
+	},
+	"[scss]": {
+		"editor.formatOnSave": true,
+	},
+	"stylelint.autoFixOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.format.enable": true,
+	"javascript.format.enable": false,
+	"[javascript]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[json]": {
+		"editor.formatOnSave": true,
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features",
+	},
+	"[php]": {
+		"editor.formatOnSave": false,
+	},
+	"phpcs.enable": true,
+	"phpcs.standard": "WordPress",
+	"phpcbf.standard": "WordPress",
+	"phpcbf.executablePath": "phpcbf.bat",
+	"phpcbf.onsave": true
+}

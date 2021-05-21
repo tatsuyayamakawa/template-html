@@ -1,0 +1,38 @@
+{
+	"extends": [
+		"plugin:@wordpress/eslint-plugin/recommended"
+	],
+	"parser": "babel-eslint",
+	"rules": {
+		"semi": [
+			"error",
+			"always"
+		],
+		"semi-spacing": [
+			"error",
+			{
+				"before": false,
+				"after": true
+			}
+		],
+		"semi-style": [
+			"error",
+			"last"
+		],
+		"no-extra-semi": "error",
+		"no-unexpected-multiline": "error",
+		"no-unreachable": "error",
+		"no-var": "error",
+		"no-console": "off",
+		"indent": [
+			"error",
+			"tab"
+		],
+		"prettier/prettier": [
+			"error",
+			{
+				"htmlWhitespaceSensitivity": "ignore"
+			}
+		]
+	}
+}

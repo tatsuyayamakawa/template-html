@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.scss","style.css"],"names":[],"mappings":"AAEA;CAGC,8BAAA;CAAA,sBAAA;CAFA,SAAA;CACA,UAAA;ACAD","file":"style.css","sourcesContent":["@use \"./imports\" as i;\n\n* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n","* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}"]}

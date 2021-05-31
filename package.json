@@ -1,31 +1,21 @@
 {
-	"name": "template-html",
+	"name": "template-wp",
 	"version": "1.0.0",
-	"description": "this package is about website production",
+	"description": "For WordPress development",
 	"main": "gulpfile.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [
-		"web",
-		"cording"
-	],
-	"author": "tatsuyayamakawa",
+	"author": "Tatsuya Yamakawa",
 	"license": "ISC",
 	"devDependencies": {
-		"autoprefixer": "^9.8.6",
-		"babel-eslint": "^10.1.0",
+		"@wordpress/eslint-plugin": "^9.0.4",
+		"autoprefixer": "^10.2.5",
 		"browser-sync": "^2.26.14",
 		"css-declaration-sorter": "^6.0.2",
-		"eslint": "^7.22.0",
-		"eslint-config-prettier": "^8.1.0",
+		"eslint": "^7.25.0",
+		"eslint-config-prettier": "^8.3.0",
 		"eslint-config-wordpress": "^2.0.0",
-		"eslint-plugin-prettier": "^3.3.1",
-		"eslint-plugin-react": "^7.22.0",
 		"gulp": "^4.0.2",
-		"gulp-clean-css": "^4.3.0",
 		"gulp-imagemin": "^7.1.0",
-		"gulp-notify": "^3.2.0",
+		"gulp-notify": "^4.0.0",
 		"gulp-plumber": "^1.2.1",
 		"gulp-postcss": "^9.0.0",
 		"gulp-rename": "^2.0.0",
@@ -34,14 +24,20 @@
 		"gulp-webp": "^4.0.1",
 		"imagemin-mozjpeg": "^9.0.0",
 		"imagemin-optipng": "^8.0.0",
-		"npm-check-updates": "^11.3.0",
-		"postcss": "^8.2.8",
+		"npm-check-updates": "^11.5.10",
+		"postcss": "^8.2.14",
 		"prettier": "^2.2.1",
-		"sass": "^1.32.8",
-		"stylelint": "^13.12.0",
+		"sass": "^1.32.12",
+		"stylelint": "^13.13.1",
 		"stylelint-config-prettier": "^8.0.2",
-		"stylelint-config-standard": "^21.0.0",
+		"stylelint-config-wordpress": "^17.0.0",
 		"stylelint-prettier": "^1.2.0",
 		"stylelint-scss": "^3.19.0"
-	}
+	},
+	"browserslist": [
+		"last 2 versions",
+		"ie >= 11",
+		"Android >= 4",
+		"ios_saf >= 8"
+	]
 }

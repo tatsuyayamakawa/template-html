@@ -1,2 +1,2 @@
-#node_modulesを除外する
-node_modules
+# node_modulesを無視する
+node_modules/

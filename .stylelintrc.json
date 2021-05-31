@@ -2,7 +2,8 @@
 	"extends": [
 		"stylelint-prettier/recommended",
 		"stylelint-config-prettier",
-		"stylelint-config-wordpress"
+		"stylelint-config-wordpress",
+		"prettier"
 	],
 	"plugins": [
 		"stylelint-prettier",

@@ -1,6 +1,7 @@
 {
 	"extends": [
-		"plugin:@wordpress/eslint-plugin/recommended"
+		"plugin:@wordpress/eslint-plugin/recommended",
+		"prettier"
 	],
 	"parser": "babel-eslint",
 	"rules": {

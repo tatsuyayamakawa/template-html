@@ -8,7 +8,7 @@ $ git clone git@github.com:tatsuyayamakawa/temp-wp.git
 
 ## ２．リポジトリの作成
 
-GitHub 上でリモートリポジトリを作成する。
+GitHub 上でリモートリポジトリを作成します。
 その後、ターミナルで下記コマンドを実行。
 
 ```bash
@@ -33,20 +33,20 @@ $ git remote -v
 
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 開発作業は src フォルダ内で行うこと。
-本番ファイルは Gulp を通して dest フォルダに生成される。
+本番ファイルは Gulp を通して dest フォルダに生成されます。
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 
 事前に[node.js](https://nodejs.org/ja/)をインストール。
 最新版ではなく**推奨版にする**こと。
 
 gulpfile.js と package.json があるか確認。
-ターミナルで下記コマンドを実行する。
+ターミナルで下記コマンドを実行します。
 
 ```bash
 $ npm install
 ```
 
-プラグインがインストールされる。
+プラグインがインストールされます。
 
 ## ４．拡張機能のインストール
 
@@ -75,9 +75,7 @@ $ npm install
 
 ### 利用可能な Gulp コマンド
 
-ターミナルを`Ctrl + Shift + @`で出す。
-
-以下のコマンドを打つとタスクが走る。
+ターミナルを`Ctrl + Shift + @`で出し、以下のコマンドを実行します。
 
 ---
 
@@ -85,7 +83,7 @@ $ npm install
 $ gulp
 ```
 
-ファイル保存で以下のタスクが自動で走る。
+ファイル保存で以下のタスクが自動で走ります。
 
 -   ブラウザのリロード
 -   sass のコンパイル
@@ -98,14 +96,15 @@ $ gulp
 $ gulp imagemin
 ```
 
-./src/images/に画像を入れておくと、圧縮して.dest//images/に吐き出す。
-※jpg、png はより軽い.WebP に変換される。
+./src/images/に画像を入れておくと、圧縮して.dest//images/に吐き出します。
+
+※jpg、png はより軽い.WebP に変換されます。
 
 ---
 
 ## ５．WordPress 開発環境構築
 
-上から順番に設定する。
+上から順番に設定します。
 
 1. [Xampp の PHP 環境と Gulp の browser-sync の連携](https://aya404.com/blog/develop/108_xampp-php-gulp/)
 1. [Composer をインストール](https://haniwaman.com/windows-composer/)
@@ -142,6 +141,7 @@ mixin ルール
 ### module ディレクトリ
 
 サイト共通で使用するモジュール別にスタイルが定義されている SCSS ファイルを格納します。
+
 **格納される SCSS ファイルは、BEM 設計の Block 単位になります。**
 
 -   \_header.scss （ヘッダーの設定ファイル）

@@ -108,7 +108,10 @@ $ gulp imagemin
 
 1. [Xampp の PHP 環境と Gulp の browser-sync の連携](https://aya404.com/blog/develop/108_xampp-php-gulp/)
 1. [Composer をインストール](https://haniwaman.com/windows-composer/)
-1. [WordPress-Coding-Standards の導入](https://haniwaman.com/windows-composer/)
+1. [WordPress-Coding-Standards の導入](https://haniwaman.com/wordpress-coding-standards/)
+
+WordPressのテーマフォルダにテンプレートを移動させ開発開始です。
+```C:\xampp\htdocs\project\wordpress\wp-content\themes\wp-temp```
 
 ## ６．SCSS ファイル構成
 

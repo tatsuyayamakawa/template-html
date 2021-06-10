@@ -1,29 +1,15 @@
 <?php
 /**
- * WordPress Theme Name
+ * The main template file.
  *
- * File description
- *
- * @author: Author Name
+ * @author: Your name
  * @link: https://example.com
- *
+ * @license: GPL v2 or later
  * @package WordPress
- * @subpackage Theme Name
- * @since 1.0.0
+ * @subpackage Theme name
+ * @since Theme version
  */
 
-?>
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-<?php
-	echo "Hi, I'm a PHP script!";
-?>
-</body>
-</html>
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}

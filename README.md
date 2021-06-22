@@ -273,6 +273,21 @@ $ git remote -v
 名前と URL が新しいものに変わっていれば成功です。
 `temp-wp`の接続先が`new-theme`に変更されました。
 
+さらに、以下のコマンドで`temp-wp`をリモートリポジトリにプッシュします。
+
+```sh
+$ git push -u origin main
+> To github.com:tatsuyayamakawa/new-theme.git
+>  * [new branch]      main -> main
+> Branch 'main' set up to track remote branch 'main' from 'origin'.
+```
+
+各自リポジトリーを確認してください。
+
+![2021-06-22_17h44_45](https://user-images.githubusercontent.com/5243452/122893870-abb5ea80-d381-11eb-9f91-c6faefc982d2.png)
+
+ここまでで、`temp-wp`のコピー作業は完了です。
+
 以上の流れは以下にも記載していますので参考にしてください。
 
 -   [Github に保存した HTML テンプレートを開発ごとに clone して複製利用したい](https://qiita.com/tatsuya_yamakawa/items/ee922540e591683c8ee4)

@@ -40,7 +40,7 @@ gulp.task('sass', function () {
 			])
 		)
 		.pipe(postcss([cssdeclsort({ order: 'smacss' })]))
-		.pipe(gulp.dest('./', { sourcemaps: './' }));
+		.pipe(gulp.dest('./assets/css/', { sourcemaps: './assets/css/' }));
 });
 
 // 画像最適化
@@ -74,7 +74,7 @@ gulp.task('browser-sync', function (done) {
 });
 
 gulp.task('watch', function () {
-	gulp.watch('./sass/**/*.scss', gulp.task('sass'));
+	gulp.watch('./assets/sass/**/*.scss', gulp.task('sass'));
 });
 
 gulp.task('default', gulp.series(gulp.parallel('browser-sync', 'watch')));

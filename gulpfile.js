@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
+const rename = require('gulp-rename');
 const plumber = require('gulp-plumber');
 const notify = require('gulp-notify');
 const postcss = require('gulp-postcss');
@@ -27,6 +28,9 @@ gulp.task('sass', function () {
 				indentType: 'tab',
 				indentWidth: 1,
 			})
+		)
+		.pipe(
+			rename('main.css')
 		)
 		.pipe(
 			postcss([

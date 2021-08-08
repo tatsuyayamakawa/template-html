@@ -44,7 +44,7 @@ gulp.task('sass', function () {
 			])
 		)
 		.pipe(postcss([cssdeclsort({ order: 'smacss' })]))
-		.pipe(gulp.dest('./assets/css/', { sourcemaps: './assets/css/' }));
+		.pipe(gulp.dest('./assets/css/', { sourcemaps: './' }));
 });
 
 // 画像最適化
